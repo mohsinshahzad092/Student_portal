@@ -1,0 +1,48 @@
+$green-color: #86BC42;
+$darkGray-color: #242C42;
+
+
+
+.adminLoginContainer {
+
+    background-image: url(../../../public/Admin-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.adminLogin-box {
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    color: #242C42;
+    // text-align: center;
+    display: flex;
+    // justify-content: center;
+
+    box-shadow: -3px 8px 17px 3px rgba(0, 0, 0, 0.32);
+    -webkit-box-shadow: -3px 8px 17px 3px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: -3px 8px 17px 3px rgba(0, 0, 0, 0.32);
+}
+
+.input-user {
+    
+
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+
+    h1{
+
+        color: $green-color;
+        font-weight: bold;
+        text-align: center;
+        font-size: 32px;
+    }
+
+
+
+}

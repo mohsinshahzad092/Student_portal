@@ -1,0 +1,50 @@
+$green-color: #86BC42;
+$darkGray-color: #242C42;
+
+.login-Container{
+
+    background-image: url(../../../public/Login-page.jpg);
+    background-size: cover;
+    height: 100vh;
+    
+    
+    
+}
+
+.login-Container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.login-box{
+
+    width: 700px;
+    height: 500px;
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 0 15px;
+    padding: 50px 100px;
+
+    h1{
+        font-weight: bold;
+        color:$darkGray-color;
+        font-size: 22px;
+        padding: 10px;
+        
+    }
+    
+    
+    
+    
+}
+
+.logo-login{
+
+    width: 35%;
+    padding: 20px;
+}
+

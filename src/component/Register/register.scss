@@ -1,0 +1,44 @@
+$green-color: #86BC42;
+$darkGray-color: #242C42;
+
+
+
+.register-container{
+
+    background-image: url(../../../public/Login-page.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.register-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.r-box{
+
+    width: 700px;
+    height: 500px;
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 0 15px;
+    padding: 50px 100px;
+
+    img{
+
+        width: 35%;
+        padding: 20px;
+    }
+    h1{
+        font-weight: bold;
+        color:$darkGray-color;
+        font-size: 22px;
+        padding: 10px;
+        
+    }
+}
+
+
+    
